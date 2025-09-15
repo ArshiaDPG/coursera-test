@@ -1,21 +1,20 @@
 
 
 #baseBodyProperties{
+    box-sizing: border-box;
+    font-size: 120%;
     align-items: center;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: lightpink;
 }
-
-
 /*
     Gray box properties
 */
 .baseBox {
     font-size: 120%;
     margin: 5px;
-    box-sizing: border-box;
     border: 5px solid black;
     width: 32%;
     height: 300px;
@@ -27,12 +26,15 @@
     Menu Lebel properties
 */
 .menuItem{
+    box-sizing: border-box;
     font-size: 150%;
-    border-right: 5px solid black;
+    border-left: 5px solid black;
     border-bottom: 5px solid black;
     text-align: right;
     text-align: center;
-    width: 30%;
+    width: 35%;
+    margin-left: 65%;
+    overflow-x: hidden;
 }
 
 #pepper{
@@ -49,14 +51,14 @@
 /*
     Layout settings
 */
-@media (max-width: 1023px){
+@media (max-width: 970px){
     .baseBox{
         float: none;
         width: 100%;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1140px) {
+@media (min-width: 970px) and (max-width: 1140px) {
     .baseBox{
         float: left;
         width: 49%;
