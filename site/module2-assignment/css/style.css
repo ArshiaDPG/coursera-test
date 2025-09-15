@@ -61,7 +61,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1670px) {
     .baseBox{
         float: left;
         width: 48%;
