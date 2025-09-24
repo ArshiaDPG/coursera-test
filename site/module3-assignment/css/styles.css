@@ -1,0 +1,96 @@
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    background-color: pink;
+    color: white;
+}
+
+/* HEADER ELEMENTS */
+
+.navbar-brand span span {
+    color: white;
+}
+
+#nav-list li a:hover {
+    color: black;
+}
+
+
+.navbar-brand a { /* Restaurant name */
+  color: white;
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: -10%;
+  text-decoration: none;
+}
+
+#header-nav {
+    background-color: #c21e76;
+    font-weight: 500;
+    border-radius: 0;
+    border: 0;
+    height: 160px;
+}
+
+.innerBodyText {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 25px;
+}
+.buttons{
+    background-color: #61122f;
+    float: right;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+}
+@media (min-width: 1200px) {
+}
+.navbar-header button.navbar-toggle{
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END OF HEADER */
+
+/* CATEGORIES */
+
+.menuCategory {
+    background-color: #61122f;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.menuTitle{
+    font-size: 2em;
+}
