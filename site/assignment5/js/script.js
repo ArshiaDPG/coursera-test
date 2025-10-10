@@ -87,9 +87,6 @@ $ajaxUtils.sendGetRequest(
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
-$("#navMenuButton").click(function (event) {
-    $dc.loadMenuItems()
-  });
 
 // Builds HTML for the home page based on categories array
 // returned from the server.
@@ -120,7 +117,7 @@ function buildAndShowHomeHTML (categories) {
       //
       // var homeHtmlToInsertIntoMainPage = ....
 
-      var html = homeHtml.replace("{{randomCategoryShortName}}", chosenCategoryShortName);
+      var html = homeHtml.replace("{randomCategoryShortName}", chosenCategoryShortName);
       html += "<section class='row'>";
       var name = "" + chosenCategoryShortName.name;
       var short_name = chosenCategoryShortName.short_name;
